@@ -14,3 +14,8 @@ Write a test case by generating a random matrix from a standard normal distribut
 4. There are 2 columns in the data set that are supposed to date time object (column "Birth date" and "Visit date"). Use the package datetime and the function to_datetime to convert these 2 columns to datetime object in Python. Calculate a new column called "Age" which is the difference between these 2 columns. Print out the number of observations that are older than 450 days. Create a new column with name "pre.vaccine" which has value "1" if the child was born before "01-01-2010", and value "0" otherwise. 
 
 5. Write a piece of python code to simulate the central limit theorem. The distribution you are drawing from is an uneven die of 6 faces with uneven probabilities for each side. You can choose how you want to distribute the probabilities. Comment on the sampling distribution.
+
+6. Import the file IMDB Dataset.csv Download IMDB Dataset.csvas a data frame in pandas. </br>
+a. Create a list called review from the column review of the data set. How many reviews does the dataset contain. </br>
+b. Create 2 lists: positive_words and negative_words. Each list contains 10 words that can be considered positive (or negative) about a movie. For example, "incredible", "wonderful" can be on the positive list. "terrible", "boring" can be on the negative list. Check if a review contains a positive word (or negative). </br>
+c. Determine the number of reviews in the dataset  that can be classified as positive (negative). Which fraction of the reviews are positive (negative). The sentiment score can be calculated as the difference of the positive fraction and negative fraction. Compute the sentiment score. </br>
