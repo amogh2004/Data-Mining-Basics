@@ -21,3 +21,17 @@ Write a test case by generating a random matrix from a standard normal distribut
 a. Create a list called review from the column review of the data set. How many reviews does the dataset contain. </br>
 b. Create 2 lists: positive_words and negative_words. Each list contains 10 words that can be considered positive (or negative) about a movie. For example, "incredible", "wonderful" can be on the positive list. "terrible", "boring" can be on the negative list. Check if a review contains a positive word (or negative). </br>
 c. Determine the number of reviews in the dataset  that can be classified as positive (negative). Which fraction of the reviews are positive (negative). The sentiment score can be calculated as the difference of the positive fraction and negative fraction. Compute the sentiment score. </br>
+
+## Assignment 2
+
+1. How many observations are there? How many features are there?
+2. How many flights arrived at SFO? How many airlines fly to SFO?
+3. How many missing values are there in the departure delays? How about arrival delays? Do they match? Why or why not? Remove these observations afterwards.
+4. What is the average and median departure and arrival delay? What do you observe?
+5. Display graphically the departure delays and arrival delays for each airline. What do you notice? Explain.
+6. Now calculate the 5 number summary (min, Q1, median, Q3, max) of departure delay for each airline. Arrange it by median delay (descending order). Do the same for arrival delay.
+7. Which airline has the most averaged departure delay? Give me the top 10 airlines.
+8. Do you expect the departure delay has anything to do with distance of trip? What about arrival delay and distance? Prove your claims.
+9. What about day of week vs departure delay?
+10. If there is a departure delay (i.e. positive values for departure delay), does distance have anything to do with arrival delay? Explain. (My experience has been that longer distance flights can make up more time.)
+11. Are there any seasonal (monthly) patterns in departure delays for all flights?
