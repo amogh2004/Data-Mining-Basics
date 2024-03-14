@@ -24,6 +24,8 @@ c. Determine the number of reviews in the dataset  that can be classified as pos
 
 ## Assignment 2
 
+### Part 1
+
 1. How many observations are there? How many features are there?
 2. How many flights arrived at SFO? How many airlines fly to SFO?
 3. How many missing values are there in the departure delays? How about arrival delays? Do they match? Why or why not? Remove these observations afterwards.
