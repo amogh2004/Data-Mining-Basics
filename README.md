@@ -37,3 +37,13 @@ c. Determine the number of reviews in the dataset  that can be classified as pos
 9. What about day of week vs departure delay?
 10. If there is a departure delay (i.e. positive values for departure delay), does distance have anything to do with arrival delay? Explain. (My experience has been that longer distance flights can make up more time.)
 11. Are there any seasonal (monthly) patterns in departure delays for all flights?
+
+### Part 2
+
+Now we want to build a model to analyze the arrival delay. We will use linear regression here.
+
+#### Subpart I
+1. Your response is ARRIVAL DELAY. First, remove all the missing data in the WEATHER DELAY column. Once you do this, there shouldn't be any more missing values in the data set (except for the cancellation reason feature). Check that. </br>
+2. Build a regression model using all the observations, and the following predictors: [LATE AIRCRAFT DELAY, AIR SYSTEM DELAY, DEPARTURE DELAY , WEATHER DELAY, SECURITY DELAY, DAY OF WEEK,  DISTANCE, AIRLINE] a total of 8 predictors. </br>
+3. Perform model diagnostics. What do you observe? Explain. </br>
+4. Provide interpretations for a few of the coefficients, and comment on whether they make sense. </br>
