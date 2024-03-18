@@ -47,3 +47,10 @@ Now we want to build a model to analyze the arrival delay. We will use linear re
 2. Build a regression model using all the observations, and the following predictors: [LATE AIRCRAFT DELAY, AIR SYSTEM DELAY, DEPARTURE DELAY , WEATHER DELAY, SECURITY DELAY, DAY OF WEEK,  DISTANCE, AIRLINE] a total of 8 predictors. </br>
 3. Perform model diagnostics. What do you observe? Explain. </br>
 4. Provide interpretations for a few of the coefficients, and comment on whether they make sense. </br>
+
+#### Subpart II
+1. If you have done the above steps correctly, you will notice a lot of things "doesn't seem right". We will try to fix a couple of these things here. Removing outliers: first is to remove outliers. Using the boxplot method, remove the outliers in the ARRIVAL DELAY variable. </br>
+2. Refit the linear regression model, but now with log(ARRIVAL DELAY) as your response. Also, remove the non-significant predictors from the previous model (with p-values larger than 0.05). (Remember that when removing non-significant predictors one can only eliminate one variable per step, but for now we will ignore this rule and remove everything in one step.) </br>
+3. Also take the log transform of a DELAY variable and the square of another DELAY variable of your choice. </br>
+4. Perform model diagnostics. Did anything improve? Provide interpretations to a few of the coefficients. Do you think they make sense? Obviously there's still a lot that needs to be done. Provide a few suggestions on how we can further improve the model fit (you don't need to implement them). </br>
+
