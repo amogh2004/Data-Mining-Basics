@@ -54,3 +54,11 @@ Now we want to build a model to analyze the arrival delay. We will use linear re
 3. Also take the log transform of a DELAY variable and the square of another DELAY variable of your choice. </br>
 4. Perform model diagnostics. Did anything improve? Provide interpretations to a few of the coefficients. Do you think they make sense? Obviously there's still a lot that needs to be done. Provide a few suggestions on how we can further improve the model fit. </br>
 
+## Assignment 3
+For this homework, we will be analyzing superconductivity data for 21263 superconductors and their relevant features. The original data set can be found on the UCI machine learning data repository (https://archive.ics.uci.edu/dataset/464/superconductivty+data). This data set consists of 81 features extracted from superconductors. The goal is to use these attributes to predict the critical temperature (last column of the data set). The original data set consists of 21263 observations and 81 attributes. For this assignment, we are only using the first 5000 observations of the data set. The main task of this assignment is to create a Lasso regression model that uses the 81 predictors to predict the critical temperature.
+
+## Assignment 4
+This database contains 76 attributes, but all published experiments refer to using a subset of 14 of them. In particular, the Cleveland database is the only one that has been used by ML researchers to this date. The "goal" field refers to the presence of heart disease in the patient. It is integer valued from 0 (no presence) to 4. Experiments with the Cleveland database have concentrated on simply attempting to distinguish presence (values 1,2,3,4) from absence (value 0). The names and social security numbers of the patients were recently removed from the database, replaced with dummy values.
+
+## Assignment 5
+Developing an accurate financial distress prediction model using Decision Trees, Bagging, and Boosting techniques to classify companies based on financial stability and risk.
